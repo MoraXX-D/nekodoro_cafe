@@ -106,7 +106,7 @@ export class BrewPopup extends Phaser.GameObjects.Container {
         }).setOrigin(0.5);
         brewBtn.add([brewBtnBg, brewBtnText]);
 
-        brewBtnBg.on('pointerdown', () => this.handleBrew(scene));
+        brewBtnBg.on('pointerdown', () => this.handleBrew());
         // Add tween feedback
         brewBtnBg.on('pointerdown', () => {
             scene.tweens.add({
@@ -251,7 +251,7 @@ export class BrewPopup extends Phaser.GameObjects.Container {
         this.add(container);
     }
 
-    private handleBrew(scene: Phaser.Scene) {
+    private handleBrew() {
         if (!this.targetOrder) return;
 
         // Map UI state to CoffeeOrder evaluation struct
