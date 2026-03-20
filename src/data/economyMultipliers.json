@@ -1,0 +1,21 @@
+{
+  "blends": {
+    "singleBean": 1.0,
+    "balancedBlend": 1.15,
+    "expertBlend": 1.25
+  },
+  "satisfaction": {
+    "perfectMatch": 1.5,
+    "goodMatch": 1.2,
+    "normalMatch": 1.0,
+    "badMatch": 0.7
+  },
+  "scoring": {
+    "brewMethod": 40,
+    "coffeeType": 25,
+    "roastLevel": 15,
+    "temperature": 10,
+    "addons": 10
+  },
+  "baseRewardMultiplier": 1.2
+}

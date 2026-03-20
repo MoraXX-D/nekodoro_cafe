@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "I'd love a {{temperature}} {{brewMethod}} made with {{coffeeType}} beans, {{roastLevel}} roast. Make it {{strength}}, with {{addons}}.",
+    "Could I get a {{strength}} {{brewMethod}}? {{temperature}}, {{coffeeType}} beans, {{roastLevel}} roast, and {{addons}} please.",
+    "A {{temperature}} {{coffeeType}} {{brewMethod}}, please. {{roastLevel}} roast, {{strength}}, with {{addons}}."
+  ]
+}

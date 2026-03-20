@@ -1,0 +1,60 @@
+/src
+   /assets
+      /sprites
+         /characters
+            /cat
+               cat_idle.png
+               cat_brew.png
+               cat_happy.png
+               cat_sad.png
+            /customers
+               customer_idle.png
+               customer_happy.png
+
+         /plants
+            /arabica
+               arabica_stage1.png
+               arabica_stage2.png
+               arabica_stage3.png
+               arabica_stage4.png
+               arabica_stage5.png
+               arabica_idle.png
+            /robusta
+               robusta_stage1.png
+               robusta_stage2.png
+               robusta_stage3.png
+            /chicory
+               chicory_stage1.png
+
+         /brewing
+            cup_empty.png
+            cup_fill_sheet.png
+            steam_sheet.png
+            espresso_machine.png
+            french_press.png
+            pour_over.png
+
+         /ui
+            button_start.png
+            button_upgrade.png
+            panel_background.png
+            progress_bar_fill.png
+            progress_bar_bg.png
+            coin_icon.png
+            xp_icon.png
+
+         /effects
+            sparkle_sheet.png
+            coin_pop_sheet.png
+            level_up_glow.png
+
+      /backgrounds
+         cafe_day.png
+         cafe_night.png
+         window_light_overlay.png
+
+      /audio
+         lofi_loop.mp3
+         click.wav
+         coin.wav
+         brew.wav

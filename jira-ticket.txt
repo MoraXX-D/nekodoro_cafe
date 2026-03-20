@@ -1,0 +1,215 @@
+🟣 EPIC: Cozy Cat Café Focus Game – Frontend MVP V2 (Deep Mechanics Edition)
+Goal:
+Build a playable cozy focus simulator with progressive plant growth, harvest cycles, bean economy, brewing system, plant tiers, blending mechanics, and reputation loop.
+Duration: 14–16 Weeks
+Effort: ~240–280 hours
+Owner: Shubham Kumar
+🔵 UPDATED CORE GAME DESIGN
+Focus System
+1 Focus Session = Growth Progress
+4 Focus Sessions = Harvest Unlock
+Break session unlocks brewing
+Economy System
+Harvest yields 200–400g beans
+Brew types consume different grams
+Bean storage capacity system
+Plant types affect yield & flavor
+Progression System
+Plant tiers (Arabica → Robusta → Chicory → Rare)
+Cat leveling
+Reputation score
+Blending unlock milestone
+🟢 SPRINT 1–2 (Weeks 1–3)
+Theme: Foundation & Core Loop (Updated)
+🎟 STORY 1: Timer System (Refined)
+Estimate: 12h
+Subtasks:
+Implement 25/5 system
+Add Custom timer option
+Add cycle counter (0–4)
+Emit focusProgress event
+Add dev-mode fast timer
+DoD:
+Timer emits percentage progress
+Cycle increments properly
+🎟 STORY 2: Progressive Growth System
+Estimate: 16h
+Subtasks:
+Growth based on % (not hard stage switch)
+5 visual plant states
+Tween scaling animation
+Growth accumulation across sessions
+Unlock harvest at 100%
+DoD:
+Plant grows over 4 sessions
+Harvest becomes clickable
+🟢 SPRINT 3–4 (Weeks 4–6)
+Theme: Harvest & Bean Economy
+🎟 STORY 3: Harvest System
+Estimate: 12h
+Subtasks:
+Randomized yield (200–400g)
+Yield influenced by plant tier
+Harvest animation
+Reset growth to 0
+DoD:
+Harvest produces bean inventory
+🎟 STORY 4: Bean Inventory & Storage
+Estimate: 14h
+Subtasks:
+Bean weight tracking
+Max storage cap
+Overflow warning
+UI inventory panel
+DoD:
+Beans persist in local save
+Overflow system functional
+🟢 SPRINT 5–6 (Weeks 7–9)
+Theme: Brewing System (Expanded)
+🎟 STORY 5: Brew Consumption Logic
+Estimate: 16h
+Subtasks:
+Espresso = 18g
+Filter = 25g
+Cold brew = 35g
+Deduct beans per brew
+Prevent brew if insufficient beans
+DoD:
+Beans reduce accurately
+🎟 STORY 6: Customer Preference Engine
+Estimate: 14h
+Subtasks:
+Generate random preference
+Taste score calculation
+Tip multiplier logic
+Customer animation reaction
+DoD:
+Customer satisfaction affects coins
+🟢 SPRINT 7–8 (Weeks 10–11)
+Theme: Plant Tier System
+🎟 STORY 7: Plant Unlock System
+Estimate: 12h
+Subtasks:
+Tier 1: Arabica
+Tier 2: Robusta
+Tier 3: Chicory
+Tier 4: Rare
+Unlock conditions
+UI selector
+DoD:
+Player can switch plants
+🎟 STORY 8: Plant Attribute Modifiers
+Estimate: 10h
+Subtasks:
+Yield multiplier
+Growth speed modifier
+Flavor score bias
+Risk/reward balancing
+DoD:
+Each plant feels different
+🟢 SPRINT 9 (Week 12)
+Theme: Blending System
+🎟 STORY 9: Blend Lab Feature
+Estimate: 18h
+Subtasks:
+Blend ratio slider (0–100%)
+Attribute calculation (body, aroma, acidity)
+Save custom blends
+Apply blend to brew
+DoD:
+Blend affects customer satisfaction
+🟢 SPRINT 10 (Week 13)
+Theme: Reputation & Progression
+🎟 STORY 10: Reputation System
+Estimate: 14h
+Subtasks:
+Reputation score formula
+Reputation UI bar
+Reputation-based bonuses
+Unlock VIP customers
+DoD:
+Reputation impacts gameplay
+🟢 SPRINT 11 (Week 14)
+Theme: Retention Systems
+🎟 STORY 11: Daily Streak System
+Estimate: 8h
+Track daily login
+Add streak multiplier
+Add streak UI
+🎟 STORY 12: Milestone Rewards
+Estimate: 8h
+Unlock blend lab
+Unlock plant tiers
+Unlock storage expansion
+🟢 SPRINT 12 (Week 15–16)
+Theme: Polish & Optimization
+🎟 STORY 13: Audio & Atmosphere
+Lo-fi loop
+Brewing sound
+Coin sound
+Rain ambience option
+🎟 STORY 14: Visual Polish
+Particle effects
+UI transitions
+Parallax background
+Smooth easing
+🎟 STORY 15: Save & State Manager
+JSON game state
+Local storage
+Safe load validation
+🧠 Updated Economy Formula Suggestions
+Harvest Yield
+yield = baseYield * plantTierMultiplier * reputationMultiplier
+Brew Reward
+reward = tasteScore * customerTipMultiplier
+Reputation Gain
+repGain = (customerSatisfaction + streakBonus) / 10
+🧩 Updated Architecture Modules
+TimerSystem
+GrowthSystem
+HarvestSystem
+BeanInventorySystem
+BrewSystem
+PlantTierSystem
+BlendSystem
+ReputationSystem
+EconomySystem
+SaveSystem
+Keep everything modular.
+📊 Updated Timeline Estimate
+Phase	Hours
+Core Loop	40h
+Harvest & Inventory	26h
+Brewing System	30h
+Plant Tiers	22h
+Blend System	18h
+Reputation	14h
+Retention	16h
+Polish	30h
+Buffer	40h
+Total: ~236–280 hours
+At 2.5h/day → ~16 weeks.
+🚨 Critical Scope Rule
+You MUST complete:
+Core Loop
+→ Harvest
+→ Brewing
+Before touching:
+Blending
+Reputation
+Plant tiers
+Or you will drown in complexity.
+🧠 Final Strategic Advice
+This version is:
+Deeper
+More unique than Forest
+More strategic than casual focus apps
+Portfolio-level impressive
+Monetizable later
+But only if built incrementally.
+Now I’ll ask you something important:
+Do you want to ship:
+A) Polished MVP in 3 months
+B) Deep feature-rich version in 4–5 months
+C) Iterative public build with user feedback
+

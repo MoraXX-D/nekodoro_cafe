@@ -1,0 +1,170 @@
+1️⃣ ART STYLE LOCK (MUST DECIDE FIRST)
+Visual Direction
+Style: Cozy 16-bit pixel art
+Palette: Warm browns, cream, muted greens
+Mood: Calm, soft, warm lighting
+Lighting: Indoor café glow
+Perspective: Slight top-down or side view (choose one and stay consistent)
+⚠️ DO NOT mix perspectives.
+2️⃣ CORE CHARACTER ASSETS
+🐱 Cat (Main Character)
+Required:
+Asset	Type	Frames	Format
+Cat Idle	Sprite Sheet	4–6	PNG
+Cat Brewing	Sprite Sheet	6–8	PNG
+Cat Happy	Sprite Sheet	3–4	PNG
+Cat Level Up	Sprite Sheet	4	PNG
+Optional (Later Phase):
+Cat Sad
+Cat Sleeping
+Cat Special Skin Variants
+3️⃣ CUSTOMER ASSETS
+Required (MVP minimal)
+Asset	Type	Frames
+Customer Idle	Single PNG	
+Customer Happy	2–3 frames	
+Customer Disappointed	2–3 frames	
+Later Expansion:
+VIP customer sprite
+Themed seasonal customers
+4️⃣ PLANT SYSTEM ASSETS
+Each plant type needs:
+🌿 Per Plant Tier (Arabica, Robusta, Chicory…)
+Asset	Type	Count
+Stage 1 (Seedling)	PNG	1
+Stage 2	PNG	1
+Stage 3	PNG	1
+Stage 4	PNG	1
+Stage 5 (Mature w/ beans)	PNG	1
+Idle Leaf Sway	Sprite Sheet	2–4 frames
+Harvest Glow Effect	Sprite Sheet	4 frames
+MVP Start:
+Only Arabica fully done.
+5️⃣ BREWING SYSTEM ASSETS
+☕
+Asset	Type
+Cup Empty	PNG
+Cup Fill Animation	Sprite Sheet (4–6 frames)
+Steam Animation	Sprite Sheet (3–4 frames)
+Coffee Splash Effect	Sprite Sheet
+Bean Icon	PNG
+Equipment (Visual Unlocks)
+Equipment	Type
+Espresso Machine	PNG
+Pour Over Stand	PNG
+French Press	PNG
+Cold Brew Jar	PNG
+AeroPress	PNG
+MVP:
+Only 1 visible brewing station needed.
+6️⃣ UI ASSETS
+🎛 Core UI
+Asset	Type
+Start Button	PNG
+Pause Button	PNG
+Upgrade Button	PNG
+Harvest Button	PNG
+Panel Background	PNG
+Progress Bar Background	PNG
+Progress Bar Fill	PNG
+Coin Icon	PNG
+XP Icon	PNG
+Reputation Icon	PNG
+🎯 Status Indicators
+Asset	Type
+Streak Badge	PNG
+Level Up Glow	Sprite Sheet
+Achievement Popup	PNG
+7️⃣ ECONOMY & EFFECTS
+✨ Effects
+Effect	Type
+Coin Pop	Sprite Sheet
+Sparkle	Sprite Sheet
+Harvest Shine	Sprite Sheet
+Level Up Burst	Sprite Sheet
+Reputation Glow	Sprite Sheet
+Keep effects under 128x128.
+8️⃣ BACKGROUND ASSETS
+🏠 Café Interior
+Asset	Resolution
+Cafe Day	1024x576 PNG
+Cafe Night	1024x576 PNG
+Window Light Overlay	PNG
+Rain Overlay (optional)	PNG
+No animation initially.
+Use parallax later.
+9️⃣ AUDIO ASSETS
+🎵 Background
+Lo-fi loop (2–3 minutes)
+Rain ambience loop
+🔊 SFX
+Button click
+Coin sound
+Brew pour sound
+Steam sound
+Level up sound
+Harvest chime
+Keep total audio under 5MB initially.
+🔟 CONFIG-ONLY (No Art Needed Yet)
+These are systems, not assets:
+Coffee Types Config
+Brew Methods Config
+Flavor Attributes
+Reputation Formula
+Plant Tier Multipliers
+Storage Capacity Levels
+No art required at MVP stage.
+1️⃣1️⃣ ASSET SIZE RULES
+Type	Max Size
+Sprites	≤ 128x128
+Large character	≤ 256x256
+Background	≤ 1024 width
+Total build target	< 25MB
+Always compress PNGs.
+1️⃣2️⃣ ASSET CREATION PIPELINE
+Step 1 – Generate with Gemini
+Generate single frames with fixed resolution.
+Step 2 – Clean in Piskel
+Align frames
+Remove background
+Crop exactly
+Step 3 – Export Sprite Sheet
+Consistent frame size.
+Step 4 – Optimize
+Run through TinyPNG.
+Step 5 – Move to /assets/sprites
+1️⃣3️⃣ MVP ASSET PRIORITY ORDER
+DO NOT create everything at once.
+Phase 1 (Week 1–3)
+Cat Idle
+Arabica 5 stages
+Cup Empty
+Coin Icon
+Basic Café Background
+Phase 2
+Brewing animation
+Customer sprite
+Coin pop effect
+Phase 3
+Plant tiers
+Blend lab visuals
+Reputation effects
+1️⃣4️⃣ FUTURE EXPANSION (Post-MVP)
+Seasonal themes
+Cat skins
+Festival decorations
+Rare beans
+Animated weather
+🧠 Studio-Level Rule
+Every asset must answer:
+Does this improve gameplay clarity?
+Does this improve emotional attachment?
+Does this improve retention?
+If not → don’t build it yet.
+🎯 Total MVP Asset Count Estimate
+Sprites: ~35–50
+Sprite Sheets: ~10–15
+Backgrounds: 2
+UI Elements: ~15
+Audio: ~8 files
+Very manageable.

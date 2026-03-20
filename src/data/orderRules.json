@@ -1,0 +1,22 @@
+{
+  "brewMethods": {
+    "coldbrew": {
+      "allowedTemperatures": ["iced"],
+      "allowedRoasts": ["medium", "dark"]
+    },
+    "espresso": {
+      "allowedTemperatures": ["hot"],
+      "allowedRoasts": ["medium", "dark"]
+    },
+    "pourover": {
+      "allowedTemperatures": ["hot"],
+      "allowedRoasts": ["light", "medium"]
+    },
+    "frenchpress": {
+      "allowedTemperatures": ["hot"],
+      "allowedRoasts": ["medium", "dark"]
+    }
+  },
+  "validStrengths": ["mild", "regular", "strong"],
+  "validAddons": ["milk", "sugar", "honey", "cinnamon", "none"]
+}

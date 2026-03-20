@@ -1,0 +1,22 @@
+{
+  "espresso": {
+    "name": "Espresso",
+    "multiplier": 1.0,
+    "beansRequired": 12
+  },
+  "pourover": {
+    "name": "Pour Over",
+    "multiplier": 1.2,
+    "beansRequired": 15
+  },
+  "frenchpress": {
+    "name": "French Press",
+    "multiplier": 1.35,
+    "beansRequired": 20
+  },
+  "coldbrew": {
+    "name": "Cold Brew",
+    "multiplier": 1.6,
+    "beansRequired": 25
+  }
+}

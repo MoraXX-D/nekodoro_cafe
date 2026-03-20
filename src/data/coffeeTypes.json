@@ -1,0 +1,14 @@
+{
+  "arabica": {
+    "name": "Arabica",
+    "multiplier": 1.2
+  },
+  "robusta": {
+    "name": "Robusta",
+    "multiplier": 1.0
+  },
+  "chicory": {
+    "name": "Chicory",
+    "multiplier": 1.35
+  }
+}
