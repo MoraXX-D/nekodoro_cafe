@@ -48,41 +48,41 @@ export class BootScene extends Phaser.Scene {
         });
 
         // ── Preload global assets ──
-        this.load.image('cafe_bg', 'src/assets/sprites/ui/cafe_background.png');
-        this.load.image('table_fg', 'src/assets/sprites/ui/TableForeground.png');
-        this.load.spritesheet('cat_idle', 'src/assets/sprites/characters/cat/cat_idle_animationv2.png', {
+        this.load.image('cafe_bg', 'assets/sprites/ui/cafe_background.png');
+        this.load.image('table_fg', 'assets/sprites/ui/TableForeground.png');
+        this.load.spritesheet('cat_idle', 'assets/sprites/characters/cat/cat_idle_animationv2.png', {
             frameWidth: 500,
             frameHeight: 500,
         });
 
         // ── Preload Plant Sprites & Icons ──
-        this.load.image('coffee_bean_icon', 'src/assets/icons/coffeeBeanIcon.png');
-        this.load.image('icon_coin', 'src/assets/icons/coin.png');
-        this.load.image('item_ice', 'src/assets/sprites/items/IceCube.png');
-        this.load.image('item_cinnamon', 'src/assets/sprites/items/cinnamon.png');
-        this.load.image('item_honey', 'src/assets/sprites/items/honey.png');
-        this.load.image('item_milk', 'src/assets/sprites/items/milk.png');
-        this.load.image('item_sugar', 'src/assets/sprites/items/sugar.png');
-        this.load.image('item_brew_concoction', 'src/assets/sprites/items/brewConcoction.png');
-        this.load.spritesheet('anim_brewing', 'src/assets/sprites/brewing/brewing.png', {
+        this.load.image('coffee_bean_icon', 'assets/icons/coffeeBeanIcon.png');
+        this.load.image('icon_coin', 'assets/icons/coin.png');
+        this.load.image('item_ice', 'assets/sprites/items/IceCube.png');
+        this.load.image('item_cinnamon', 'assets/sprites/items/cinnamon.png');
+        this.load.image('item_honey', 'assets/sprites/items/honey.png');
+        this.load.image('item_milk', 'assets/sprites/items/milk.png');
+        this.load.image('item_sugar', 'assets/sprites/items/sugar.png');
+        this.load.image('item_brew_concoction', 'assets/sprites/items/brewConcoction.png');
+        this.load.spritesheet('anim_brewing', 'assets/sprites/brewing/brewing.png', {
             frameWidth: 500,
             frameHeight: 500
         });
 
         // ── Preload Audio ──
-        this.load.audio('bgm', 'src/assets/audio/background/purrplecat-hope-501204.ogg');
-        this.load.audio('catMeow', 'src/assets/audio/Ui/catMeow.wav');
-        this.load.audio('coinCollect', 'src/assets/audio/Ui/coinCollect.wav');
-        this.load.audio('completeTimer', 'src/assets/audio/Ui/completeTimer.wav');
-        this.load.audio('harvest', 'src/assets/audio/Ui/harvest.wav');
+        this.load.audio('bgm', 'assets/audio/background/purrplecat-hope-501204.ogg');
+        this.load.audio('catMeow', 'assets/audio/Ui/catMeow.wav');
+        this.load.audio('coinCollect', 'assets/audio/Ui/coinCollect.wav');
+        this.load.audio('completeTimer', 'assets/audio/Ui/completeTimer.wav');
+        this.load.audio('harvest', 'assets/audio/Ui/harvest.wav');
         
         for (let i = 1; i <= 6; i++) {
             // Using template literal for stage1.png to stage6.png
-            this.load.image(`arabica_stage${i}`, `src/assets/sprites/plants/arabica/stage${i}.png`);
+            this.load.image(`arabica_stage${i}`, `assets/sprites/plants/arabica/stage${i}.png`);
         }
 
         //order board
-        this.load.image('order_board', 'src/assets/icons/orderBoardV2.png');
+        this.load.image('order_board', 'assets/icons/orderBoardV2.png');
     }
 
     /* ───────── create ───────── */
